@@ -16,7 +16,6 @@ console.log(currentHour)
     var event=localStorage.getItem("hour-"+i)
 
     console.log(event)
-    timeBlock.children()
 
     if (i===currentHour) {
       timeBlock.addClass("present")
