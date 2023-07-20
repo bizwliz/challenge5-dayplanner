@@ -32,6 +32,7 @@ I learned how to create a code and wrap it in a jQuery ready funtion, and how to
 
 Link to website: https://bizwliz.github.io/challenge5-dayplanner/
 
+<img width="500px" height="300px" src="./assets/video/screenshot.png">
 <video width="500px" height="300px" controls="controls">
 <source src="./assets/video/video_of_website.mp4" type="video/mp4" /></source></video>
 
