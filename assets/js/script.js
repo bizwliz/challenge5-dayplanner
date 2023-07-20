@@ -15,6 +15,12 @@ console.log(currentHour)
     var timeBlock=$("#hour-"+i)
     var event=localStorage.getItem("hour-"+i)
 
+    // allows the saved data to persist after refresh 
+    if (event) {
+      var textarea = timeBlock.find("textarea");
+      textarea.val(event); 
+    }
+
     console.log(event)
 
     if (i===currentHour) {
