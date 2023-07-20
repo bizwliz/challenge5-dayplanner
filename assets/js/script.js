@@ -11,7 +11,7 @@ console.log(currentDayTime)
 currentDayEL.text(currentDayTime)
 console.log(currentHour)
 
-  for (let i = 9; i < 17; i++) {
+  for (let i = 9; i < 18; i++) {
     var timeBlock=$("#hour-"+i)
     var event=localStorage.getItem("hour-"+i)
 
